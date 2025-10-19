@@ -163,8 +163,7 @@
             <!-- Nút tương tác -->
             <section class="text-center mb-8">
                 <div class="space-y-4">
-                    <button onclick="showSurprise()" class="heart-beat bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-2xl transform transition-all duration-300 hover:scale-105">
-                        🎁 Món Quà Đặc Biệt
+                   
                     </button>
                     <br>
                     <button onclick="sendFlowers()" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 px-6 rounded-full shadow-xl transform transition-all duration-300 hover:scale-105">
@@ -210,58 +209,7 @@
             }, 800);
         }
 
-        // Hiển thị món quà bất ngờ
-        function showSurprise() {
-            const surpriseSection = document.getElementById('surprise-section');
-            const surpriseContent = document.getElementById('surprise-content');
-            
-            surpriseContent.innerHTML = `
-                <div class="space-y-6">
-                    <div class="text-6xl mb-4">🎉🎊🎁🎊🎉</div>
-                    <h3 class="text-4xl font-bold text-gradient mb-6">
-                        Món Quà Đặc Biệt Cho Mẹ!
-                    </h3>
-                    
-                    <div class="grid md:grid-cols-2 gap-6 text-left">
-                        <div class="bg-pink-50 p-6 rounded-2xl">
-                            <h4 class="text-xl font-bold text-pink-600 mb-3">🎵 Playlist Yêu Thương</h4>
-                            <p class="text-gray-700 mb-3">Con đã tạo một playlist những bài hát mẹ yêu thích để mẹ thư giãn mỗi ngày</p>
-                            <div class="text-sm text-pink-500">♪ Những giai điệu ấm áp dành riêng cho mẹ</div>
-                        </div>
-                        
-                        <div class="bg-purple-50 p-6 rounded-2xl">
-                            <h4 class="text-xl font-bold text-purple-600 mb-3">📸 Album Kỷ Niệm</h4>
-                            <p class="text-gray-700 mb-3">Con sẽ in những bức ảnh đẹp nhất của gia đình để mẹ lưu giữ kỷ niệm</p>
-                            <div class="text-sm text-purple-500">📷 Những khoảnh khắc hạnh phúc bên nhau</div>
-                        </div>
-                        
-                        <div class="bg-rose-50 p-6 rounded-2xl">
-                            <h4 class="text-xl font-bold text-rose-600 mb-3">🍰 Bữa Tối Đặc Biệt</h4>
-                            <p class="text-gray-700 mb-3">Con sẽ nấu những món mẹ yêu thích cho bữa tối hôm nay</p>
-                            <div class="text-sm text-rose-500">👩‍🍳 Được nấu bằng tình yêu thương</div>
-                        </div>
-                        
-                        <div class="bg-amber-50 p-6 rounded-2xl">
-                            <h4 class="text-xl font-bold text-amber-600 mb-3">💆‍♀️ Ngày Thư Giãn</h4>
-                            <p class="text-gray-700 mb-3">Con sẽ đặt lịch spa để mẹ có một ngày thư giãn hoàn toàn</p>
-                            <div class="text-sm text-amber-500">🧘‍♀️ Thời gian dành riêng cho mẹ</div>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-8 p-6 bg-gradient-to-r from-pink-100 to-purple-100 rounded-2xl">
-                        <p class="text-2xl font-bold text-gradient mb-2">
-                            💝 Nhưng món quà lớn nhất...
-                        </p>
-                        <p class="text-xl text-gray-700">
-                            Chính là tình yêu và sự biết ơn vô hạn mà con dành cho mẹ! 💖
-                        </p>
-                    </div>
-                </div>
-            `;
-            
-            surpriseSection.classList.remove('hidden');
-            surpriseSection.scrollIntoView({ behavior: 'smooth' });
-        }
+
 
         // Tặng hoa cho mẹ
         function sendFlowers() {
@@ -327,3 +275,4 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98cef1d8545d3ee9',t:'MTc2MDE5MTg2NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
